@@ -153,6 +153,25 @@
   }
 }
 
+@theme inline {
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --color-page: #f7f8fa;
+  --color-line: #e5e7eb;
+  --color-grid: #eef0f3;
+  --color-brand: #0f766e;
+  --color-brand-soft: #e6f4f2;
+  --color-ink: #111827;
+  --color-ink-muted: #6b7280;
+  --color-ink-subtle: #9ca3af;
+  --color-ok: #15803d;
+  --color-ok-bg: #dcfce7;
+  --color-warn: #b45309;
+  --color-warn-bg: #fef3c7;
+  --color-bad: #b91c1c;
+  --color-bad-bg: #fee2e2;
+  --color-alert: #ef4444;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
